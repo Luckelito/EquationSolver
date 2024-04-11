@@ -36,6 +36,7 @@ public class Main
                 {
                     case "1":
                         System.out.println(tree.toTreeString());
+                        System.out.println("Please enter another option to continue!");
                         break;
                     case "2":
                         while(tree.simplyfy()) {}
