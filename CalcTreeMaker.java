@@ -5,9 +5,9 @@ public class CalcTreeMaker
     // Trees should only be able to have subtrees of a lower priority (or a subtree with parenthesis)
     private enum OperationPriority
     {
-        LOW,
-        MIDDLE,
-        HIGH
+        LOW, // Addition and subtraction
+        MIDDLE, // Multiplication and division
+        HIGH // Equality
     }
 
     public static CalcTree createCalcTree(List<Token> tokens)
